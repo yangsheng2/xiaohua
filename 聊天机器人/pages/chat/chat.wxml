@@ -1,0 +1,18 @@
+<!--pages/chat/chat.wxml-->
+<import src="../template/template.wxml"/>
+<view class="container">
+
+<view class="content">
+<scroll-view scroll-y="true" scroll-top="{{scrollTop}}">
+ <block wx:for="{{dataList}}">
+<template is="user" data="{{...item}}"></template>
+ </block>
+ </scroll-view>
+</view>
+
+ <form bindsubmit='reg'>
+  <textarea name="textarea" value='{{textareaVal}}'></textarea>
+  <button form-type='submit'>发送</button>
+ </form>
+</view>
+  

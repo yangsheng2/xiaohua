@@ -1,0 +1,8 @@
+<!--pages/joke/joke.wxml-->
+<view class="container">
+  <view wx:for="{{jokes}}" class='joke'>
+    <view class="title">{{item.title}}</view>
+    <view class="time">{{item.ct}}</view>
+    <image src="{{item.img}}" mode='aspectFill' data-src="{{item.img}}"  bindtap='maxImg'></image>
+  </view>
+</view>

@@ -1,0 +1,48 @@
+.user{
+  float: right;
+  padding: 0;
+  clear: both;
+  margin-top: 10px;
+  margin-right: 15px
+}
+.user2{
+  float: left;
+  padding: 0;
+  clear: both;
+  margin-top: 10px;
+  margin-left: 15px
+}
+.headImg image{
+  width: 50px;
+  height: 50px;
+}
+.headImg2 image{
+  width: 50px;
+  height: 50px;
+}
+.headImg2{
+  float: left;
+  padding: 0;
+}
+.headImg{
+  float: right;
+  padding: 0;
+}
+.chatContent2{
+  max-width: 60%;
+  padding: 8px 15px;
+  background-color: white;
+  float: left;
+  overflow-wrap:break-word;
+  border-radius: 5px;
+  margin-left: 10px
+}
+.chatContent{
+  max-width:60%;
+  padding: 8px 15px;
+  background-color: white;
+  float: right;
+  overflow-wrap:break-word;
+  border-radius: 5px;
+  margin-right: 10px
+}

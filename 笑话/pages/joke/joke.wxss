@@ -1,0 +1,27 @@
+/* pages/joke/joke.wxss */
+.joke{
+  width: 90%;
+ display: flex;
+ flex-direction: column ;
+ justify-content:center;
+ margin-top: 10px;
+ border-bottom: 1px solid rgba(211,211,211,0.6);
+ padding-bottom: 10px
+}
+.container{
+  width: 100%;
+  padding: 0
+}
+.title{
+  font-size: 18px;
+  font-weight: 600;
+  color: #666666
+}
+.time{
+  font-size: 12px;
+  color: #999999
+}
+
+.content{
+  color: #666666
+}

@@ -1,0 +1,18 @@
+<template name="user">
+<block wx:if="{{type==1}}">
+<view class="user">
+<view class="headImg">
+<image src="{{img}}"></image>
+</view>
+<view class="chatContent">{{text}}</view>
+</view>
+</block>
+<block wx:else>
+<view class="user2">
+<view class="headImg2">
+<image src="{{img}}"></image>
+</view>
+<view class="chatContent2">{{text}}</view>
+</view>
+</block>
+</template>
